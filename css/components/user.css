@@ -1,0 +1,39 @@
+.user-component {
+  display: flex;
+  justify-content: space-between;
+}
+.friends-screen {
+  padding: var(--horizontal-space);
+}
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 35%;
+  border: 1px solid grey;
+  margin-right: 25px;
+  margin-bottom: 7px;
+}
+.user-component__title {
+  font-weight: 600;
+  font-size: 22px;
+}
+.user-component__subtitle {
+  margin-top: 10px;
+  font-size: 17px;
+  opacity: 0.7;
+}
+
+.user-component__avatar--xl {
+  width: 100px;
+  height: 100px;
+}
+
+.user-component__avatar--sm {
+  width: 80px;
+  height: 80px;
+}
