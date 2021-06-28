@@ -9,9 +9,7 @@
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
 }
-.friends-screen__channel {
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
-}
+
 .firends-screen__channel-header span {
   display: inline-block;
   margin-top: 10px;

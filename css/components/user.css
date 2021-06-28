@@ -14,7 +14,6 @@
   width: 80px;
   height: 80px;
   border-radius: 35%;
-  border: 1px solid grey;
   margin-right: 25px;
   margin-bottom: 7px;
 }
@@ -36,4 +35,23 @@
 .user-component__avatar--sm {
   width: 80px;
   height: 80px;
+}
+.user-component__avatar--not-bold {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.user-component__profile {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.user-component__column__time {
+  margin-bottom: 10px;
+  opacity: 0.6;
+}
+
+.user-component__column--notification {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
 }
