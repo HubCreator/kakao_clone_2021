@@ -55,3 +55,8 @@
   align-items: flex-end;
   flex-direction: column;
 }
+
+.user-component__subtitle .fa-info-circle {
+  margin-left: 5px;
+  color: hsl(350, 68%, 67%);
+}
