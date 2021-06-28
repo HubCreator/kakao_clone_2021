@@ -7,7 +7,7 @@
   font-weight: 500;
 }
 #friends-display-link i {
-  color: rgba(0, 0, 0, 0.3);
+  color: var(--main-border);
 }
 
 .firends-screen__channel-header span {
