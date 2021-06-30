@@ -1,0 +1,16 @@
+.setting-list__content {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.setting-list__content i {
+  opacity: 0.8;
+  margin-right: 7px;
+}
+
+.setting-list__content__column:last-child {
+  opacity: 0.6;
+}
