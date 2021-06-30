@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends Screen</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-half"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <span>
+          <a href="chats.html"><i class="fas fa-chevron-left fa-2x"></i></a>
+        </span>
+      </div>
+      <div class="alt-header__column">
+        <span class="alt-header__title">LEO</span>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen chatting">
+      <div class="chatting__timestamp">Friday, June 30, 2021</div>
+
+      <div class="message-row">
+        <img src="img/lava.jpeg" alt="my face" />
+        <div class="message-row__content">
+          <span class="message-row__author">Leo</span>
+          <div class="message-row__info">
+            <span class="message-row__info__bubble">Hi!!</span>
+            <span class="message-row__info__time">19:02</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message-row__info">
+            <span class="message-row__info__bubble">Hello there</span>
+            <span class="message-row__info__time">19:20</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply" action="#">
+      <div class="reply-column"><i class="far fa-plus-square fa-lg"></i></div>
+      <div class="reply-column">
+        <input type="text" placeholder="Write a message.." />
+        <i class="far fa-grin fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-circle-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/bed4e446c4.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
