@@ -1,2 +1,24 @@
-.other-functions {
+.more-screen {
+  border-bottom: 1px solid var(--grey-color);
+  padding-bottom: 40px;
+}
+
+.more-suggestion {
+  margin: 7px 0;
+}
+
+.more-suggestion__title {
+  padding-bottom: 7px;
+  border-bottom: 1px solid var(--grey-color);
+}
+
+.more-suggestion__icons img {
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.more-suggestion__icons img:last-child {
+  background-color: tomato;
 }
