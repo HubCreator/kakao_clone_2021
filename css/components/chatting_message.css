@@ -59,3 +59,32 @@
 .message-row--own .message-row__info {
   flex-direction: row-reverse;
 }
+
+@keyframes fadeinFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeinFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.message-row {
+  animation: fadeinFromLeft 0.5s linear;
+}
+.message-row--own {
+  animation: fadeinFromRight 0.5s linear;
+}
